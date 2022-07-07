@@ -1,0 +1,89 @@
+
+ body{ 
+ 
+    background-color: beige;
+}
+
+.grid-container {
+    margin: 3rem 4rem;
+    padding: 5rem 0;
+    background-color: #f0f0f0;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
+    grid-row-gap: 100px;
+    justify-items: center;
+}
+
+.triangle-left{ 
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #555;
+    border-bottom: 100px solid transparent;
+    transform: rotate(45deg)
+    
+
+}
+
+.triangle-left2{
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid black;
+    border-bottom: 200px solid transparent;
+
+
+
+}
+.triangle-left3{
+    width: 100;
+    height: 10;
+    border-top: 100px solid transparent;
+    border-right: 100px solid yellow;
+    border-bottom: 100px solid transparent;
+    transform: rotate(-180deg)
+}
+.triangle-right1{
+    width: 100;
+    height: 10;
+    border-top: 100px solid transparent;
+    border-right: 100px solid white;
+    border-bottom: 100px solid transparent;
+    transform: rotate(90deg)
+}
+.triangle-right2{
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid red;
+    border-bottom: 200px solid transparent;
+
+}
+
+.triangle-right3{
+    width: 0;
+    height: 0;
+    border-top: 140px solid transparent;
+    border-right: 140px solid #555;
+    border-bottom: 140px solid transparent;
+    transform: rotate(-45deg)
+
+}
+
+.triangle-right4{
+    width: 100;
+    height: 10;
+    border-top: 100px solid transparent;
+    border-right: 100px solid white;
+    border-bottom: 100px solid transparent;
+    transform: rotate(180deg)
+
+    
+
+}
+
+
